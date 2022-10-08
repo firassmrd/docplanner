@@ -1,0 +1,135 @@
+
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 40, 224)
+}
+body{
+    background-color: rgba(31, 184, 77, 0.712);
+    margin: 30px 50px;
+    line-height: 1.4;
+background-image: url(./bgg.jpeg);
+    
+}
+.wraper{
+    display: grid;
+    grid-gap: 20px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: right ;
+    justify-content: space-between;
+
+    padding: 0px;
+    list-style: none;
+    grid-template-columns: 25% 25% 25%;
+}
+.navbar h3{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    grid-template-columns: 100%;
+    font-size: xx-large;
+    margin: 0% 400px ;
+    color: brown;
+    
+}
+.navbar a{
+    color: #f17f0c;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+
+} 
+.first h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 38, 233);
+    text-shadow: 3px;
+    font-size: 50px;
+    border-style: dotted;
+    border-radius: 20px;
+}
+.first p{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box1 h3 {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 40px;
+}
+.box1 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+
+
+}
+.box1{
+    border-style: double;
+    color: blueviolet;
+}
+.box2{
+    border-style: double;
+    color: blueviolet;
+}
+.box2 h3 {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 40px;
+}
+.box2 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+
+
+}
+.box2{
+    border-style: double;
+    color: blueviolet;
+}
+.box3 h3 {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 40px;
+}
+.box3 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+
+
+}
+.box3{
+    border-style: double;
+    color: blueviolet;
+}
+.na h3 {
+    display: flex;
+    justify-content: center;
+    color: tomato;
+    font-size: 40px;
+}
+.na p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: dotted;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}

@@ -34,16 +34,14 @@ display: inline-block;
   grid-template-columns: 1fr 1fr;
   color: #748abc;
   font-size: 16px;
-  font height: 400;
+  
   
 }
 .cards{
   display: grid;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 40px;
-  grid gap: 100px
-  
+  padding: 40px;  
 }
 .patient{
   background: #00ccb1;

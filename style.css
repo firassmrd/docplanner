@@ -3,7 +3,7 @@ body{
     padding: 10px;
 }
 .container{
-    display:grid;
+    display:grid 20px ;
 }
 .nav {
   display: flex;
@@ -170,7 +170,15 @@ font-weight: 400px;
   justify-content: center;
   align-items: center;
  }
-  
+.section__inner{
+  font-size: 12px;
+  padding: 50px;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr ;
+}
 
 
 
